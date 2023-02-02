@@ -69,7 +69,7 @@ for (; min<n; ){
     } 
 }
 
-function tableitog(parent, arr){
+function construct_table(parent, arr){
     let table = document.createElement('table');
     for (let i = 0; i <arr.length; i++){
         let tr = document.createElement('tr');
@@ -83,4 +83,4 @@ function tableitog(parent, arr){
     parent.appendChild(table)
 }
 
-tableitog(elem, x)
+construct_table(elem, x)
