@@ -69,12 +69,11 @@ for (; min<n; ){
     } 
 }
 
-
 function tableitog(parent, arr){
     let table = document.createElement('table');
     for (let i = 0; i <arr.length; i++){
         let tr = document.createElement('tr');
-        for(let j = 0; j < arr[i].length; j++){
+        for (let j = 0; j < arr[i].length; j++){
             let td = document.createElement('td');
             td.innerHTML = arr [i][j];
             tr.appendChild(td);
