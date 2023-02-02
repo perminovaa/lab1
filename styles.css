@@ -1,0 +1,30 @@
+html {
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #defbff;
+}
+
+body {
+  text-align: center;
+  color: #0c0847;
+} 
+
+h1 {
+  color: #f45100;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+table {
+  margin:auto;
+  border: 1px solid black
+}
+
+table td {
+  padding: 20px;
+  border: 1px solid black; 
+}
+  
